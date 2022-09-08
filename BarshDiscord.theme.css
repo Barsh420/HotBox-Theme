@@ -1,0 +1,247 @@
+/**
+ * @name Barsh HotBox
+ * @author Barsh#4710
+ * @version 1.0.0
+ * @invite gwpdtkM
+ * @description Easy on the eyes, Purps and Greens If Ya Know What I Means
+ * @source https://github.com/DiscordStyles/SoftX
+*/
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+/* Theme imports */
+@import url("https://discordstyles.github.io/SoftX/SoftX.css"); /* Base theme, don't remove. */
+@import url("https://discordstyles.github.io/SoftX/RadialGlow.css"); /* RadialGlow effect for avatars. | Remove this line to disable. */
+
+:root {
+	/* SoftX variables */
+	--background-image: url('https://i.imgur.com/Nglfni6.png'); /* Background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+	--background-blur: 0px; /* Blur intensity of --background-image | Must end in px | Default: 0px */
+
+	--accent: 120, 81, 169; /* Colour used around the app. | Values are in R,G,B format. | Default: 0, 231, 169 */
+
+	--channels-width: 300px; /* Width of the channels list. | Default: 300px */
+	--guilds-width: 105px; /* Width of the server list. | Default: 105px */
+	--members-width: 280px; /* Width of the members list. | Default: 280px */
+
+	--server-size: 50px; /* Size of the servers inside the server list. | Default: 50px */
+	--chat-avatar-size: 32px; /* Size of the chat avatars. | Default: 32px */
+
+	--glow-intensity: 1; /* Intensity of the glow used around the app. | Set to 0 to disable the glow. | Decimals allowed | Default: 1 */
+
+	--opacity: .85; /* Opacity of overall app. | Default: .85 */
+
+	--font: 'Inter'; /* Custom font | Default: 'Inter' */
+
+	--avatar-roundness: 50%; /* Roundness for avatars. | 0% = Square, 50% = Circle | Default: 50% */
+	--server-roundness: 50%; /* Roundness for servers. | 0% = Square, 50% = Circle | Default: 50% */
+
+
+
+	/* RadialStatus veriables */
+	--rs-small-spacing: 2px; /* Spacing between profile image and outer ring on small icons (e.g. member list) | Default: 2px */
+	--rs-medium-spacing: 4px; /* Spacing between profile image and outer ring on medium icons (e.g. user popout) | Default: 4px */
+	--rs-large-spacing: 4px; /* Spacing between profile image and outer ring on medium icons (e.g. user popout fullscreen) | Default: 4px */
+
+	--rs-small-width: 1.5px; /* Ring width (follows same sizing as above) | Default: 1.5px */
+	--rs-medium-width: 2px; /* Default: 2px */
+	--rs-large-width: 2px; /* Default: 2px */
+
+	/* Customizable colors */
+	--rs-online-color: #65ff00; /* Default: #43b581 */
+	--rs-idle-color: #faa61a; /* Default: #faa61a */
+	--rs-dnd-color: #f04747; /* Default: #f04747 */
+	--rs-offline-color: #fa0000; /* Default: #636b75 */
+	--rs-streaming-color: #643da7; /* Default: #643da7 */
+	--rs-invisible-color: #9952f0; /* Default: #747f8d */
+	--rs-phone-color: var(--rs-online-color); /* Color of the phone for mobile users | Default: var(--rs-online-color) */
+
+	--rs-phone-visible: block; /* Visibility of the phone for mobile users | Default: block */
+
+	--darkplus-sec: #7851a9;
+	--darkplus-links: #0ad64e;
+  --darkplus-bg: #0ad64e;
+
+  --darkplus-emoji-picker-color: 210deg;
+  --darkplus-home-icon: url(https://cdn.discordapp.com/attachments/468141324906921984/852117175212179466/discord-avatar-512-YV0PV.png);
+}
+	.wrapper-2RrXDg {
+	background-color: var(--darkplus-sec);
+	border: none;
+  }
+.wrapper-2RrXDg:hover,
+.wrapper-2RrXDg.active-1W_Gl9 {
+  background-color: var(--darkplus-links) !important;
+}
+.wrapper-2RrXDg .section-3G9aLW {
+  background-color: var(--darkplus-links);
+}
+.mentioned-Tre-dv {
+  background-color: rgba(var(--darkplus-sec), 0.1) !important;
+}
+  .mentioned-Tre-dv:before {
+  background-color: var(--darkplus-sec);
+  }
+  .mentioned-Tre-dv:hover {
+  background-color: rgba(var(--darkplus-sec), 0.2) !important;
+  }
+  .iconBadge-3Mmg92 {
+  background-color: var(--darkplus-sec);
+  }
+  .container-YkUktl .button-12Fmur:nth-child(1) .contents-3ca1mk path {
+  fill: var(--darkplus-sec);
+  }
+  .container-YkUktl .button-12Fmur:nth-child(2) .contents-3ca1mk path {
+  fill: var(--darkplus-links);
+  }
+  .container-YkUktl .button-12Fmur:nth-child(3) .contents-3ca1mk path {
+  fill: var(--darkplus-sec);
+  }
+  .container-YkUktl .button-12Fmur:nth-child(4) .contents-3ca1mk path {
+  fill: var(--darkplus-links);
+  }
+  .sprite-2lxwfc {
+  filter: hue-rotate(var(--darkplus-emoji-picker-color)) !important;
+  }
+  .attachButton-_ACFSu .contents-3ca1mk path {
+  fill: var(--darkplus-sec);
+  }
+  .attachButton-_ACFSu:hover .attachButtonPlus-3IYelE {
+  fill: var(--darkplus-links);
+  }
+  .button-f2h6uQ .contents-3ca1mk path, .name-3Uvkvr {
+  color: var(--darkplus-sec);
+  }
+  .button-3bklZh path {
+  fill: var(--darkplus-links);
+  }
+  .item-1OdjEX path {
+  fill: var(--darkplus-sec);
+  }
+  .iconWrapper-2awDjA path {
+  color: var(--darkplus-sec);
+  }
+  .linkButtonIcon-7rsZcu path {
+  color: var(--darkplus-sec);
+  }
+  .actionButton-3-B2x- path {
+  color: var(--darkplus-sec);
+  }
+  .buttonIcon-2Zsrs2 path {
+  fill: var(--darkplus-links);
+  }
+  .icon-18rqoe path {
+  fill: var(--darkplus-links);
+  }
+  .actionIcon-2sw4Sl path {
+  fill: var(--darkplus-sec);
+  }
+  .wrapper-NhbLHG.modeUnread-3Cxepe
+  .content-1gYQeQ
+  .mainContent-20q_Hp
+  .icon-2W8DHg {
+  color: var(--darkplus-links);
+  }
+  .wrapper-NhbLHG .content-1gYQeQ .mainContent-20q_Hp .icon-2W8DHg {
+  color: var(--darkplus-sec);
+  }
+  .wrapper-NhbLHG.modeUnread-3Cxepe
+  .content-1gYQeQ
+  .mainContent-20q_Hp
+  .channelName-3KPsGw {
+  color: var(--darkplus-links);
+  }
+  .metadataIcon-3QMhu9 path {
+  fill: var(--darkplus-sec);
+  }
+  .controlIcon-1grhw_ path {
+  color: var(--darkplus-sec);
+  }
+  .data-slate-string path {
+  color: var(--darkplus-links);
+  }
+  .winButton-3UMjdg {
+  color: var(--darkplus-links);
+  }
+  .VoiceChatNotifications-button-icon {
+  color: var(--darkplus-sec);
+  }
+  .progressBar-1T6LYX,
+.mediaBarWrapper-33h1oY .mediaBarGrabber-FvJKJg,
+.mediaBarProgress-38I317,
+.mediaBarProgress-38I317::after,
+.mediaBarProgress-38I317::before {
+  background-color: var(--darkplus-sec);
+}
+  .mediaBarInteraction-tUE5dq:hover .mediaBarGrabber-FvJKJg {
+  background-color: var(--darkplus-links);
+  }
+  .colorHeaderPrimary-jN_yGr {
+  color: var(--darkplus-links);
+  }
+  .headerCellContent-iBms3e {
+  color: var(--darkplus-sec);
+  }
+  .defaultColor-2cKwKo {
+  color: var(--darkplus-sec);
+  }
+  .menu-3A7xxX {
+  margin-right: 16px;
+  color: var(--darkplus-links);
+  cursor: pointer;
+  }
+  .description-30xx7u,
+.labelDescriptor-34wZ-z {
+  color: var(--darkplus-links);
+}
+  .colorDefault-CDqZdO.focused-3qFvc8 {
+	  color: var(--darkplus-sec);
+  }
+	  .newMessagesBar-1hF-9G {
+  background-color: var(--darkplus-sec);
+    }
+  .colorStandard-21JIj7 {
+  color: var(--darkplus-sec);
+  }
+  .icon-2xnN2Y,
+.title-17SveM,
+.tabBar-ra-EuL .item-3mHhwr,
+.brand-3g5E0C.item-3XjbnG:hover,
+.themed-2-lozF.item-3XjbnG:hover,
+.clickable-ZD7xvu .icon-2xnN2Y,
+.clickable-ZD7xvu:hover .icon-2xnN2Y:hover,
+.title-x4dI75,
+.linkButtonIcon-7rsZcu,
+.name-3Vmqxm,
+.username-Qpc78p,
+.text-MPIeXO,
+.discriminator-WV5K5s,
+.button-12Fmur,
+.button-12Fmur.enabled-9OeuTA:hover,
+.title-338goq,
+.hovered-20u3oh,
+.customStatus-1UAQAK {
+  color: var(--darkplus-links);
+}
+  .css-4h5swf-singleValue {
+  color: var(--darkplus-sec);
+  }
+  .categoryItemDefaultCategorySelected-2YeRUu .categoryIcon-2cYeku,
+.categoryItemDefaultCategorySelected-2YeRUu:hover .categoryIcon-2cYeku,
+.categoryItemDefaultCategory-3haEDq:hover .categoryIcon-2cYeku {
+  color: var(--darkplus-links);
+}
+.botTagRegular-kpctgU {
+  color: var(--darkplus-links);
+  background-color: var(--darkplus-sec);
+}
+.categoryItem-1QIroW.selectedCategoryItem-FHKU_o .itemInner-gPkiWb {
+  background-color: var(--darkplus-links);
+}
+.categoryIcon-2cYeku {
+  color: var(--darkplus-sec);
+}
+.guildName-1sOa9v {
+  color: var(--darkplus-links);
+}
